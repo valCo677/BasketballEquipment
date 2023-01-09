@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class bascetbalEquipment {
+    public static void main( String[] args ) {
+        Scanner scanner = new Scanner (System.in  );
+        int tax = Integer.parseInt ( scanner.nextLine () );
+        double trainersPrice = tax*0.6;
+        double suit = trainersPrice*0.8;
+        double ball = suit*0.25;
+        double accesories = ball*0.2;
+        double FinalPrace = trainersPrice+ball+suit+accesories+tax;
+        System.out.println (FinalPrace);
+
+
+
+    }
+}
